@@ -1,5 +1,5 @@
 image:
-  repository: satishosk/react-vite-app
+  repository: satishosk/tourism_website_using_react
   tag: dev-latest
 
 service:

@@ -1,0 +1,16 @@
+infra-repo/
+├── charts/
+│   └── react/
+│       ├── Chart.yaml
+│       ├── templates/
+│       │   ├── deployment.yaml
+│       │   ├── service.yaml
+│       │   └── ingress.yaml  # Optional, if using Ingress
+│       ├── values.yaml        # Default values
+│       ├── values-dev.yaml    # Dev-specific overrides
+│       └── values-prod.yaml   # Prod-specific overrides
+├── apps/
+│   ├── dev/
+│   │   └── react-vite-app.yaml  # ArgoCD Application CR for dev
+│   └── prod/
+│       └── react-vite-app.yaml  # ArgoCD Application CR for prod
