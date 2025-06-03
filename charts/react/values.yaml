@@ -1,0 +1,6 @@
+image:
+  repository: satishosk/react-vite-app
+  tag: dev-latest
+
+service:
+  type: NodePort

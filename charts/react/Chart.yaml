@@ -1,0 +1,5 @@
+apiVersion: v2
+name: react-vite
+description: A Helm chart for deploying React Vite app
+version: 0.1.0
+appVersion: "1.0.0"
